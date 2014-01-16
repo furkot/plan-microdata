@@ -1,0 +1,142 @@
+<html>
+  <head>
+    <title>Furkot Plan Microdata Example</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+      body {
+        font: 14px sans-serif;
+        padding: 3em;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div id="item-1">
+        <div class="place item-wrapper" itemscope itemtype="http://schema.org/Museum">
+          <div id="item-header" class="under-text">
+            <div class="section">      
+              <div id="item-title">
+                <div class="location">Glasgow, United Kingdom</div>
+                <h1 class="title" itemprop="name">Govanhill Baths </h1>
+                <h2 class="subtitle" itemprop="description">The community pools that the community refused to give up on</h2>
+              </div>
+            </div>
+          </div>
+          <div id="item-content" class="text-section">
+            <div id="item-details" class="body-text item-section">
+              <ul>
+                <li class="row detail">
+                    <h6 class="label">Hours</h6>
+                     <div>Daily and by request for tours</div>
+                </li>
+                <li class="detail">
+                    <h6 class="label">Website</h6>
+                  <div>
+                    <ul>
+                      <li><a href="www.govanhillbaths.com" rel="nofollow"
+                        target="_blank">Govanhill Baths</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li class="row detail">
+                  <h6 class="label">Address</h6>
+                  <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    126 Calder Street, Glasgow, G42 7QR, United Kingdom
+                    <meta itemprop="addressLocality" content="Glasgow">
+                    <meta itemprop="addressRegion" content="">
+                    <meta itemprop="addressCountry" content="United Kingdom">
+                  </div>
+                </li>
+                <li class="detail">
+                  <h6 class="label">Cost</h6>
+                  <div>free (donation)</div>
+                </li>
+              </ul>
+              <div itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
+                <meta itemprop="latitude" content="55.8375357">
+                <meta itemprop="longitude" content="-4.26274100000001">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="item-2">
+        <div id="property-review" class="col-440 gutter" itemscope itemtype="http://schema.org/LocalBusiness"> 
+          <div itemscope itemtype="http://schema.org/FoodEstablishment">
+            <div itemscope itemtype="http://schema.org/Restaurant">
+              <div class="content-block review-bg clearfix">
+                <div class="property-name">
+                  <h1 class="alt" itemprop="name">Bourbon House</h1>
+                </div>
+              </div>
+              <div class="content-block clearfix">
+                <div>
+                  <div>
+                    <h2 class="review-title"><span class="dv">Bourbon House </span>Review</h2>
+                    <meta itemprop="description" content=" On one of the French Quarter's busiest corners is Dickie Brennan's biggest and flashiest restaurant yet (he also owns Palace Café and Dickie Brennan's Steakhouse), and it's a solid hit with seafood aficionados. The raw bar is prime real estate, with its ...">
+                  </div>
+                </div>
+                <div class="review-details clearfix">
+                  <ul class="review-contact">
+                    <h2>Contact&nbsp;Information</h2>
+                    <li class="address">
+                      <span class="label">Address:</span>
+                      <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                        <span itemprop="streetAddress">144 Bourbon St., </span>
+                        <span itemprop="addressLocality">French Quarter, New Orleans</span>,
+                        <span itemprop="addressRegion">LA</span>
+                        <span itemprop="postalCode">70130</span> | 
+                      </span>
+                      <a href="#google-map" class="map-link" itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
+                        Map It
+			                <meta itemprop="latitude" content="29.954136">
+			                <meta itemprop="longitude" content="-90.069447">
+                      </a>
+                    </li>
+                    <li class="phone">
+                      <span class="label">Phone:</span>
+                      <span itemprop="telephone">504/522–0111</span>
+                    </li>
+                    <li class="website">
+                      <span class="label">Website:</span> 
+                      <a href="http://www.bourbonhouse.com" target="_blank" itemprop="url">www.bourbonhouse.com</a>
+                    </li>
+                    <li class="location"><span class="label">Location:</span> 
+                      <span>
+                        <a href="/world/north-america/usa/louisiana/new-orleans/restaurants-nam_loc:709625.html">French Quarter</a>
+                      </span>
+                    </li>
+                  </ul>
+                  <ul class="review-more-details">
+                    <h2>Restaurant&nbsp;Details</h2>
+                    <li class="cards">
+                      Credit cards accepted.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="item-3">
+        <div itemscope itemtype="http://schema.org/Place">
+          <h1 itemprop="name">Okemo Mountain</h1>
+          <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="streetAddress">77 Okemo Ridge Road, </span>
+            <span itemprop="addressLocality">Ludlow, </span>,
+            <span itemprop="addressRegion">VT</span>
+          </span>
+          <span itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
+            <meta itemprop="latitude" content="43.4046">
+            <meta itemprop="longitude" content="-72.7442">
+          </span>
+          <meta itemprop="description" content="Family Ski and Snowboard Resort in Ludlow, VT">
+        </div>
+      </div>
+    </div>
+    <script src="build/furkot-plan-microdata.js" type="text/javascript"></script>
+  </body>
+</html>

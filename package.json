@@ -1,0 +1,18 @@
+{
+  "name": "furkot-plan-microdata",
+  "version": "0.0.0",
+  "description": "Adds buttons 'Plan with Furkot' based on microdata",
+  "main": "index.js",
+  "scripts": {
+    "test": "make check"
+  },
+  "author": "Natalia Kowalczyk <melitele@code42day.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jshint": "~2.4.1",
+    "component": "~0.19.5",
+    "component-autoboot": "~0.1.0",
+    "should": "~2.1.1",
+    "mocha": "~1.17.0"
+  }
+}

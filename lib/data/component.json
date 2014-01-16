@@ -1,0 +1,8 @@
+{
+  "name": "data",
+  "description": "Extract microdata",
+  "dependencies": {},
+  "scripts": [
+    "index.js"
+  ]
+}
