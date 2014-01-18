@@ -13,6 +13,7 @@
     "component": "~0.19.5",
     "component-autoboot": "~0.1.0",
     "should": "~2.1.1",
-    "mocha": "~1.17.0"
+    "mocha": "~1.17.0",
+    "uglify-js": "~2.4.10"
   }
 }
