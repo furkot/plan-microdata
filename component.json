@@ -2,7 +2,7 @@
   "name": "furkot-plan-microdata",
   "repo": "code4day/furkot-plan-microdata",
   "description": "Adds buttons 'Plan with Furkot' based on microdata",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "keywords": [],
   "dependencies": {
   },
