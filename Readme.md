@@ -7,11 +7,11 @@
 
   Install with [component(1)](http://component.io):
 
-    $ component install code4day/pusty
+    $ component install code4day/furkot-plan-microdata
 
 ## API
 
-
+  Automatically analyzes a page and adds a button 'Plan with [Furkot]' to every item that contains element annotated with `itemprop="geo"` and `itemtype="http://schema.org/GeoCoordinates"`. 
 
 ## License
 
