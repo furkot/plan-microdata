@@ -4,7 +4,13 @@ BUILD_DIR=build
 NODE_BIN=./node_modules/.bin
 SRC = $(wildcard lib/*/*.js)
 
-all: lint test build
+%.gz: %
+	gzip --best --stdout $< > $@
+
+%.min.js: %.js
+	$(NODE_BIN)/uglifyjs $< --mangle --no-copyright --compress --wrap $(PROJECT) --output $@
+
+all: lint build
 
 $(BUILD_DIR)/$(PROJECT).js: components $(SRC)
 	$(NODE_BIN)/component build --out $(BUILD_DIR) --use component-autoboot --name $(PROJECT)
@@ -23,6 +29,10 @@ components: component.json
 
 clean:
 	rm -rf $(BUILD_DIR)
+
+.PRECIOUS: $(BUILD_DIR)/$(PROJECT).min.js
+
+dist: $(BUILD_DIR)/$(PROJECT).min.js.gz
 
 distclean: clean
 distclean:
