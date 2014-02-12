@@ -1,7 +1,7 @@
 
-# furkot-plan-microdata
+# Plan with Furkot buttons - microdata
 
-  Adds buttons 'Plan with [Furkot]' - the online trip planner - to a page with [microdata].
+  Adds **plan with Furkot** buttons to a page with [microdata]. [Furkot] - the online trip planner - will offer a user an option to add a place to their trip itinerary upon click on the **plan with Furkot** button.
 
 ## Installation
 
@@ -11,7 +11,7 @@
 
 ## API
 
-  Automatically analyzes a page and adds a button 'Plan with [Furkot]' to every item that contains element annotated with `itemprop="geo"` and `itemtype="http://schema.org/GeoCoordinates"`. 
+  Automatically analyzes a page and adds a **Plan with Furkot** button (anchor element `<a class="furkot-plan">`) to every item that contains element annotated with `itemprop="geo"` and `itemtype="http://schema.org/GeoCoordinates"`. If the page already contains anchor elements `<a class="furkot-plan">` with no `href` attribute their `href` attributes are configured instead of creating new buttons. The existing anchor elements are used in the order the items are found on the page.
 
 ## License
 
