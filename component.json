@@ -1,13 +1,18 @@
 {
-  "name": "furkot-plan-microdata",
-  "repo": "code4day/furkot-plan-microdata",
+  "name": "plan-microdata",
+  "repo": "furkot/plan-microdata",
   "description": "Adds buttons 'Plan with Furkot' based on microdata",
   "version": "1.0.0",
   "keywords": [],
   "dependencies": {
+    "code42day/furkot-trip": "0.4.0",
+    "pirxpilot/domready": "0.1.0"
   },
   "development": {},
-  "local": ["boot"],
-  "paths": ["lib"],
-  "license": "MIT"
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": [
+    "lib/index.js",
+    "lib/data.js"
+  ]
 }
