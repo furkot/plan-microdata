@@ -1,6 +1,6 @@
 {
   "name": "furkot-plan-microdata",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Adds buttons 'Plan with Furkot' based on microdata",
   "main": "index.js",
   "scripts": {
