@@ -1,4 +1,9 @@
 
+0.1.0 / 2014-02-15
+==================
+
+ * match multiple buttons to one microdata item
+
 0.0.3 / 2014-02-14
 ==================
 
