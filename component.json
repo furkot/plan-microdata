@@ -2,7 +2,7 @@
   "name": "plan-microdata",
   "repo": "furkot/plan-microdata",
   "description": "Adds buttons 'Plan with Furkot' based on microdata",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [],
   "dependencies": {
     "code42day/furkot-trip": "0.4.0",
