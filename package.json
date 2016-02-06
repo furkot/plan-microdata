@@ -1,19 +1,40 @@
 {
-  "name": "furkot-plan-microdata",
+  "name": "plan-microdata",
   "version": "0.1.0",
   "description": "Adds buttons 'Plan with Furkot' based on microdata",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "make check"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/furkot/plan-microdata.git"
+  },
+  "keywords": [
+    "browser"
+  ],
+  "dependencies": {
+    "furkot-trip": "~0",
+    "el-component": "^1.0.0",
+    "domready": "^1.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "jshint": "~2.4.1",
+    "mocha": "~1.17.0",
+    "should": "~2.1.1",
+    "uglify-js": "~2.4.10"
+  },
+  "browser": {
+    "el": "el-component"
+  },
   "author": "Natalia Kowalczyk <melitele@code42day.com>",
   "license": "MIT",
-  "devDependencies": {
-    "jshint": "~2.4.1",
-    "component": "~0.19.5",
-    "component-autoboot": "~0.1.0",
-    "should": "~2.1.1",
-    "mocha": "~1.17.0",
-    "uglify-js": "~2.4.10"
-  }
+  "bugs": {
+    "url": "https://github.com/furkot/plan-microdata/issues"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/data.js"
+  ]
 }
