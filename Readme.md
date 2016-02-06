@@ -5,9 +5,13 @@
 
 ## Installation
 
+  Install with npm:
+
+    $ npm install -S plan-microdata
+
   Install with [component(1)](http://component.io):
 
-    $ component install code4day/furkot-plan-microdata
+    $ component install furkot/plan-microdata
 
 ## API
 
