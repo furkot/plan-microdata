@@ -1,4 +1,11 @@
 
+1.0.0 / 2016-02-06
+==================
+
+ * switch build tool to browserify
+ * fix package.json to allow for publishing to npm
+ * fix typos in example.html
+
 0.1.0 / 2014-02-15
 ==================
 
