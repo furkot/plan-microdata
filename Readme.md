@@ -9,10 +9,6 @@
 
     $ npm install -S plan-microdata
 
-  Install with [component(1)](http://component.io):
-
-    $ component install furkot/plan-microdata
-
 ## API
 
   Automatically analyzes a page and adds a **Plan with Furkot** button (anchor element `<a class="furkot-plan">`) to every item that contains element annotated with `itemprop="geo"` and `itemtype="http://schema.org/GeoCoordinates"`. If the page already contains anchor elements `<a class="furkot-plan">` with no `href` attribute their `href` attributes are configured instead of creating new buttons. The existing anchor elements are used in the order the items are found on the page.
