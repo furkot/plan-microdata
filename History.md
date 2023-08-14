@@ -1,4 +1,13 @@
 
+2.0.0 / 2023-08-14
+==================
+
+ * remove remnants of `component` builder
+ * remove el-component
+ * remove domready dependency
+ * modernize and format sources
+ * switch to esbuild
+
 1.0.0 / 2016-02-06
 ==================
 
