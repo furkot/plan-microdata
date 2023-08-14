@@ -14,15 +14,11 @@
     "browser"
   ],
   "dependencies": {
-    "el-component": "^1.0.0",
     "furkot-trip": "~0"
   },
   "devDependencies": {
     "esbuild": "^0.19.2",
     "jshint": "~2"
-  },
-  "browser": {
-    "el": "el-component"
   },
   "author": "Natalia Kowalczyk <melitele@code42day.com>",
   "license": "MIT",
